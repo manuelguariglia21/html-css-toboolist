@@ -28,7 +28,7 @@ header {
 
 #logo-title {
   font-family: 'Arimo', sans-serif;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
   vertical-align: middle;
 }
@@ -71,6 +71,8 @@ button {
 .content {
   background-color: white;
   margin-top: 10px;
+  padding-left: 50px;
+  padding-bottom: 20px;
 }
 
 
@@ -94,6 +96,8 @@ p {
 
 .item {
   padding-top: 25px;
+  color: #444851;
+  font-size: 12px;
 }
 
 .item-true {
@@ -130,7 +134,7 @@ p {
 
 /* category */
 .category{
-  border-radius: 15%;
+  border-radius: 50px;
   padding: 5px;
   font-size: 10px;
   color: white;
@@ -142,6 +146,25 @@ p {
   background-color: #45abea;
 }
 
+.category.q1 {
+  background-color: #9c72e4;
+}
+
+.category.recruiting {
+  background-color: #64c0a9;
+}
+
+.category.mobile {
+  background-color: #f29e33;
+}
+
+.category.website {
+  background-color: #d863a1;
+}
+
+.category.sales {
+  background-color: #b0c926;
+}
 
 
 
