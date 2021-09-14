@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f8f9;
+}
+
+/* HEADER */
+
+header {
+  height: 75px;
+  background-color: white;
+}
+
+/* logo */
+
+#logo-area {
+  padding-top: 12px;
+  padding-left: 20px;
+}
+
+#logo {
+  vertical-align: middle;
+}
+
+#logo-title {
+  font-family: 'Arimo', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+/* MAIN */
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* top nav */
+.top-nav{
+  background-color: white;
+  margin-top: 40px;
+  padding-top: 15px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+
+}
+
+button{
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+.sky-color{
+  background-color: #47adf1;
+  color: white;
+  border: 1px solid #47adf1
+}
+
+.snow-color{
+  background-color: white;
+  color: #c5cbd0;
+  border: 1px solid #c5cbd0
+}
