@@ -35,13 +35,13 @@ header {
 
 /* MAIN */
 
-.container{
+.container {
   width: 70%;
   margin: 0 auto;
 }
 
 /* top nav */
-.top-nav{
+.top-nav {
   background-color: white;
   margin-top: 40px;
   padding-top: 15px;
@@ -50,19 +50,42 @@ header {
 
 }
 
-button{
+button {
   padding: 5px 5px;
   border-radius: 5px;
 }
 
-.sky-color{
+.sky-color {
   background-color: #47adf1;
   color: white;
   border: 1px solid #47adf1
 }
 
-.snow-color{
+.snow-color {
   background-color: white;
   color: #c5cbd0;
   border: 1px solid #c5cbd0
 }
+
+/* content */
+.content {
+  background-color: white;
+  margin-top: 10px;
+}
+
+.menu{
+  display:inline-block;
+}
+
+p {
+  font-family: 'Arimo', sans-serif;
+}
+
+.menu-title::before {
+  content: '\1F893';
+  font-size: 25px;
+  display:inline-block;
+}
+
+
+
