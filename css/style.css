@@ -73,9 +73,6 @@ button {
   margin-top: 10px;
 }
 
-.menu{
-  display:inline-block;
-}
 
 p {
   font-family: 'Arimo', sans-serif;
@@ -84,7 +81,7 @@ p {
 .menu-title::before {
   content: '\1F893';
   font-size: 25px;
-  display:inline-block;
+  padding-bottom: 0;
 }
 
 
