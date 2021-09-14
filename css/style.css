@@ -76,13 +76,72 @@ button {
 
 p {
   font-family: 'Arimo', sans-serif;
+  color: #444851;
+}
+
+.menu-title {
+  padding-top: 35px;
 }
 
 .menu-title::before {
-  content: '\1F893';
+  content: '\25BE';
   font-size: 25px;
-  padding-bottom: 0;
+  vertical-align: middle;
+  color: #444851;
 }
+
+/* item */
+
+.item {
+  padding-top: 25px;
+}
+
+.item-true {
+  color: #444851;
+  font-size: 12px;
+}
+
+.item-true::before {
+  content: '\2714';
+  font-size: 8px;
+  color: #64c0a9;
+  border: 1px solid #64c0a9;
+  border-radius: 50%;
+  padding: 3px;
+  margin: 5px;
+  
+}
+
+.item-false {
+  color: #444851;
+  font-size: 12px;
+}
+
+.item-false::before {
+  content: '\02718';
+  font-size: 8px;
+  color: #eb5a54;
+  border: 1px solid #eb5a54;
+  border-radius: 50%;
+  padding: 3px;
+  margin: 5px;
+  
+}
+
+/* category */
+.category{
+  border-radius: 15%;
+  padding: 5px;
+  font-size: 10px;
+  color: white;
+  
+}
+
+
+.category.editorial {
+  background-color: #45abea;
+}
+
 
 
 
