@@ -78,16 +78,6 @@ button {
   padding-bottom: 20px;
 }
 
-
-p {
-  color: #444851;
-}
-
-.menu-title {
-  padding-top: 35px;
-  font-weight: 600;
-}
-
 .menu-title::before {
   content: '\25BE';
   font-size: 25px;
@@ -96,6 +86,17 @@ p {
 }
 
 /* item */
+
+ul.menu-title {
+  padding-top: 35px;
+  font-weight: 600;
+  color: #444851;
+}
+
+li {
+  list-style: none;
+  padding: 10px 0;
+}
 
 .item {
   padding-top: 25px;
@@ -114,12 +115,12 @@ p {
   color: #64c0a9;
   border: 1px solid #64c0a9;
   border-radius: 50%;
-  padding: 3px;
+  padding: 2px;
   margin: 5px;
   display: inline-block;
-  width: 5px;
-  height: 5px;
-  line-height: 5px;
+  width: 8px;
+  height: 8px;
+  line-height: 8px;
   
 }
 
@@ -134,14 +135,16 @@ p {
   color: #eb5a54;
   border: 1px solid #eb5a54;
   border-radius: 50%;
-  padding: 3px;
+  padding: 2px;
   margin: 5px;
   display: inline-block;
-  width: 5px;
-  height: 5px;
-  line-height: 5px;
+  width: 8px;
+  height: 8px;
+  line-height: 8px;
   
 }
+
+
 
 /* category */
 .category{
