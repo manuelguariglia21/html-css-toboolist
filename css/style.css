@@ -71,6 +71,17 @@ button {
   border: 1px solid #c5cbd0
 }
 
+.sky-color:hover {
+  background-color: white;
+  color: #c5cbd0;
+  border: 1px solid #c5cbd0
+}
+
+.snow-color:hover{
+  background-color: #47adf1;
+  color: white;
+  border: 1px solid #47adf1
+}
 /* content */
 .content {
   margin-top: 10px;
